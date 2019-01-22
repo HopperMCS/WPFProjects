@@ -1,0 +1,122 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="StatesAndCapitalsAvalonia.MainWindow">
+        Title="MainWindow" Background="#FFB0EDEE"  Width="884.666" Height="586.282">
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="20" />
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="20" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="20" />
+      <ColumnDefinition Width="158" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="auto" />
+      <ColumnDefinition Width="20" />
+    </Grid.ColumnDefinitions>
+
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="1">
+      <!--
+      <ContentControl Content="Indiana should be here"/>
+      -->
+      <Image Source="/Images/indiana.png" />
+    </Border>
+
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="2">
+      <Image Source="/Images/iowa.png" />
+    </Border>
+
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="3">
+      <Image Source="/Images/kentucky.png" />
+    </Border>
+
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="4">
+      <Image Source="/Images/montana.png" />
+    </Border>
+
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="5">
+      <Image Source="/Images/vermont.png" />
+    </Border>
+
+    <Grid Grid.Column="3" Grid.Row="1" Grid.RowSpan="2">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto" />
+      </Grid.ColumnDefinitions>
+      <Button Content="Trivia" Margin="0 0 0 21" Grid.Row="1" Background="DarkSalmon" Width="75" />
+      <Button Content="Trivia" Margin="0 0 0 21" Grid.Row="2" Background="DarkSalmon" Width="75" />
+      <Button Content="Trivia" Grid.Row="3" Background="DarkSalmon" Width="75" />
+    </Grid>
+
+    <Grid Grid.Column="3" Grid.Row="5" Grid.RowSpan="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto" />
+      </Grid.ColumnDefinitions>
+      <Button Content="Trivia" Margin="0 0 0 21" Grid.Row="0" Background="DarkSalmon" Width="75" />
+      <Button Content="Trivia" Margin="0 0 0 21" Grid.Row="2" Background="DarkSalmon" Width="75" />
+      <Button Content="Trivia" Grid.Row="3" Background="DarkSalmon" Width="75" />
+    </Grid>
+
+    <ContentControl x:Name="InstructionLabel" Content="Reset the damn thing using C# text property" Grid.Column="2" Grid.Row="1" FontSize="19.25" FontFamily="SegoeUI-Light"/>
+
+    <Grid Grid.Column="2" Grid.Row="5" Grid.RowSpan="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="auto" />
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="auto" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Button Content="Exit" Grid.Row="3" Grid.Column="1" Background="DarkSalmon" Width="75" HorizontalAlignment="Right" />
+    </Grid>
+
+    <Grid Grid.Column="2" Grid.Row="2" Grid.RowSpan="3">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="auto" />
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <ContentControl Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4" Content="State Information:" FontSize="19.25" FontFamily="SegoeUI-Light" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+      <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="3">
+        <ContentControl Content="" FontFamily="SegoeUI" FontWeight="Bold" Foreground="OrangeRed" FontSize="26.25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+      </Border>
+    </Grid>
+    
+  </Grid>  
+</Window>
