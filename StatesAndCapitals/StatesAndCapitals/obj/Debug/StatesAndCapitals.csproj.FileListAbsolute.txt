@@ -1,0 +1,15 @@
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\bin\Debug\StatesAndCapitals.exe.config
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\bin\Debug\StatesAndCapitals.exe
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\bin\Debug\StatesAndCapitals.pdb
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals.csprojAssemblyReference.cache
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\MainWindow.g.cs
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\App.g.cs
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals_MarkupCompile.cache
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals_MarkupCompile.lref
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\MainWindow.baml
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals.g.resources
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals.Properties.Resources.resources
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals.csproj.GenerateResource.cache
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals.csproj.CoreCompileInputs.cache
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals.exe
+C:\Users\gagem\Documents\GitHub\WPFProjects\StatesAndCapitals\StatesAndCapitals\obj\Debug\StatesAndCapitals.pdb
