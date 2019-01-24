@@ -1,6 +1,6 @@
 ﻿<Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        x:Class="StatesAndCapitalsAvalonia.MainWindow">
+        x:Class="StatesAndCapitalsAvalonia.MainWindow"
         Title="MainWindow" Background="#FFB0EDEE"  Width="884.666" Height="586.282">
 
   <Grid>
@@ -22,26 +22,26 @@
       <ColumnDefinition Width="20" />
     </Grid.ColumnDefinitions>
 
-    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="1">
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="1" Width="158" Height="106">
       <!--
       <ContentControl Content="Indiana should be here"/>
       -->
       <Image Source="/Images/indiana.png" />
     </Border>
 
-    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="2">
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="2" Width="158" Height="106">
       <Image Source="/Images/iowa.png" />
     </Border>
 
-    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="3">
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="3" Width="158" Height="106">
       <Image Source="/Images/kentucky.png" />
     </Border>
 
-    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="4">
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="4" Width="158" Height="106">
       <Image Source="/Images/montana.png" />
     </Border>
 
-    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="5">
+    <Border Margin="3 3 3 3" BorderThickness="1" BorderBrush="#FF000000" Grid.Column="1" Grid.Row="5" Width="158" Height="106">
       <Image Source="/Images/vermont.png" />
     </Border>
 

@@ -10,7 +10,7 @@
     <AvaloniaResource Include="**\*.xaml">
       <SubType>Designer</SubType>
     </AvaloniaResource>
-    <AvaloniaResource Include="*/Images/*.png" />
+    <AvaloniaResource Include="Images/*.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.7.1-build1156-beta" />
